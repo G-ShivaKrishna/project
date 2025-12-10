@@ -1,0 +1,11 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment
+.env
+
+# Optional others
+.DS_Store
+.vscode/

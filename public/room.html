@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Room | Secure Video Rooms</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="page">
+  <header class="room-header">
+    <div class="brand">Secure Video Rooms</div>
+    <div class="room-id" id="roomDisplay"></div>
+  </header>
+  <main class="room">
+    <div class="video-grid" id="videoGrid">
+      <div class="video-tile">
+        <video id="localVideo" autoplay playsinline muted></video>
+        <span class="label">You</span>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="toggleAudio" class="ctrl-btn">Mute</button>
+      <button id="toggleVideo" class="ctrl-btn">Stop Video</button>
+      <button id="leaveRoom" class="ctrl-btn danger">Leave</button>
+    </div>
+  </main>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/room.js"></script>
+</body>
+</html>
