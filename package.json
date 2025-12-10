@@ -2,6 +2,17 @@
   "name": "webrtc-video-call",
   "version": "1.0.0",
   "description": "WebRTC video calling app with Express and Socket.io",
+  "homepage": "https://github.com/G-ShivaKrishna/project#readme",
+  "bugs": {
+    "url": "https://github.com/G-ShivaKrishna/project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G-ShivaKrishna/project.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
