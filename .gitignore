@@ -9,3 +9,5 @@ yarn-error.log
 # Optional others
 .DS_Store
 .vscode/
+node_modules/
+.env
